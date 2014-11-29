@@ -1,0 +1,25 @@
+	
+		form {margin-left:5px;}
+	
+	input,select { 
+		outline:none;
+		transition: all 0.25s ease-in-out;
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border:1px solid rgba(0,0,0, 0.2);	
+		padding:3px; border: 1px solid #999; 
+	}
+	input.error, select.error { border: 1px solid red; }
+	label.error { color:red; margin-left: 5px; }
+
+
+	input:focus {
+		box-shadow: 0 0 5px rgba(93, 179, 245, 1);
+		-webkit-box-shadow: 0 0 5px rgba(93, 179, 245, 1);
+		-moz-box-shadow: 0 0 5px rgba(93, 179, 245, 1);
+		border:1px solid rgba(93, 179, 245, 0.6);
+	}
+
